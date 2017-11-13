@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Versión 0.0.1</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+
+    <div class="container-form">
+    <!-- Diseñando Formulario -->
+     <form  name = "form" class="form-one" action="" method="post"  onKeyUp="calcLong('textarea',
+        'caracteres',this, 11)">
+       <fieldset name= "fieldset">
+         <textarea name="text" id="textarea" rows="5" cols="50">Este es el texto por defecto </textarea>
+         <input id="btn" type="submit" name="form-summit" value="TWEET">
+          <input  type="button" value="cuenta caracteres" onclick="count()">
+         <input type="Text" name="numLetters" size="4">
+         <input name="caracteres" type="text" id="caracteres" value="0" size="4">
+       </fieldset>
+     </form>
+    </div>
+
+
+
+    <!-- Div panel contenedor de los divs twitter text que se irán agregando-->
+    <div id="panelTwitters" class="container-panel">
+
+    </div>
+
+
+
+
+      <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>

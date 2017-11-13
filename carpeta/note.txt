@@ -1,0 +1,53 @@
+innerWidth = ancho contenido ( igual a window.innerWidth )
+outerWidth = ancho de ventana segun esté maximizada o minimizada
+scrollTo (100,3000) = funcion igual version anteriores
+scrollBy (100,3000) = funcion igual version actual, de la posicion esta suma los valores
+
+**  window.console.log ('mi padre es window)  = console.log(' mi padre es window')
+**  screen.availWidth (ancho de navegador) 1024  (da el mismo resultaado)
+**  window.outerWidth (ancho) 1024 (da el mismo resultaado)
+**  screen.availHeight
+LOCATION -------------------------------------------------------------------
+**  location.host ( devuelve la direccion)
+**  location.hostname ( devuelve la direccion igual)
+**  location.protocol ( "https:" )
+**  location.href ("https://www.google.com.pe/?gfe_rd=cr&dcr=0&ei=Pv8JWs6_Do_28AfstbL4Bg")
+**  location.pathname ("/")
+**  location.origin (https://www.google.com.pe") protocol + host
+
+NAVIGATOR -------------------------------------------------------------------
+**  navigator.appName ( "Netscape")
+**  navigator.appVersion (5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36")
+**  navigator.appCodeName ( "Mozilla" )
+**  navigator.platform ( "Win32" )
+
+HISTORY ---------------------------------------------------------------------
+**  history.forward() ( adelante sólo 1 )
+**  history.go(n) (n positivo hacia adelante, -n negativo hacia atras )
+**  history.back() ( retrocede sólo 1)
+
+ *********************ejercicio ++++++++++++++++++++++
+
+document
+document.head
+document.body
+document.firstChild
+document.firstElementChild
+metodo largo-----
+document.firstElementChild.lastElementChild.firstElementChild ( opcion igual larga)
+document.body.firstElementChild (opcion igual larga )
+otro metodo ----------
+document.getElementsByTagName('ul')
+ resultado : [ul]
+document.getElementsByTagName('ul') [0] resultado 
+
+<ul>?…?</ul>?
+otro metodo ------------
+document.querySelectorAll('uL')[0] ; ( demora en ejecutar)
+--------------
+console.dir(document.getElementsByTagName('ul'))
+
+
+
+
+
